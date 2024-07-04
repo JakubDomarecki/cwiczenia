@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.names{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    li{
+        background-color: #414141;
+        padding: 8px 16px;
+    }
+}
+
+.pages{
+    display: flex;
+    gap: 12px;
+    margin-top: 22px;
+    li {
+        background-color: #dfdfdf;
+        color: #242424;
+        padding: 6px 12px;
+        cursor: pointer;
+        transition: all 0.3 ease-in-out;
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &.active {
+            background-color: gold;
+        }
+    }
+}
