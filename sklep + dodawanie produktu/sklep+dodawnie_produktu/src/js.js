@@ -7,7 +7,10 @@ const shopModule = ( function() {
 
     const addProduct = (product) => {
         const newPrice = _countNewPrice(product.price)
-        const newProduct = Object.assign({}, product, {price: newPrice} )
+        const newProduct = {
+            ...product,
+            price: newPrice,
+        }
         _products.push(newProduct);
     }
 
