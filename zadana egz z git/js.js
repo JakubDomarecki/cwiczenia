@@ -65,20 +65,51 @@
 
 
 //10
-function foo1()
-{
-  return {
-      bar: "hello"
-  };
-}
+// function foo1()
+// {
+//   return {
+//       bar: "hello"
+//   };
+// }
 
-function foo2()
-{
-  return
-  {
-      bar: "hello"
-  };
-}
+// function foo2()
+// {
+//   return
+//   {
+//       bar: "hello"
+//   };
+// }
 
-console.log(foo1);
-console.log(foo2);
+// console.log(foo1);
+// console.log(foo2);
+
+// 11
+// function duplicate (arr) {
+//   return [...arr, ...arr]
+// }
+
+// console.log(duplicate([1,2,3,4,5]));
+
+
+//12
+// for(let i = 1; i <= 100; i++) {
+//   if (i % 3 === 0) {
+//     console.log("fizz");
+//   } else if (i % 3 === 0 && i % 5 === 0) {
+//     console.log("fizzbuzz");
+//   } else if (i % 5 === 0) {
+//     console.log("buzz");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+//13
+// console.log("hello" || "world")
+// console.log("foo" && "bar")
+
+//14 Write an immediately invoked function expression (IIFE)
+// (function () {
+//   console.log("This is an IIFE!");
+// })()
+
